@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UCEMS | UChicago Emergency Medical Services</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #222;
+      line-height: 1.6;
+    }
+    header {
+      background: #800000;
+      color: white;
+      padding: 20px 8%;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 16px;
+    }
+    .hero {
+      padding: 100px 8%;
+      background: #f5f5f5;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: clamp(32px, 5vw, 54px);
+      color: #800000;
+    }
+    .button {
+      display: inline-block;
+      background: #800000;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    section { padding: 60px 8%; }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 25px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <strong>UCEMS</strong>
+      <div>
+        <a href="#about">About</a>
+        <a href="#get-involved">Get Involved</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="hero">
+      <h1>UChicago Emergency Medical Services</h1>
+      <p>Student-led emergency medical services at
+         the University of Chicago.</p>
+      <a class="button" href="#about">Learn More</a>
+    </div>
+
+    <section id="about">
+      <h2>About UCEMS</h2>
+      <p>Welcome to the UCEMS website.
+         Learn more about our organization,
+         activities, and opportunities.</p>
+    </section>
+
+    <section id="get-involved">
+      <h2>Get Involved</h2>
+      <p>Interested in UCEMS? Check back for
+         information about joining and events.</p>
+    </section>
+  </main>
+
+  <footer>
+    UCEMS | University of Chicago
+  </footer>
+</body>
+</html>
